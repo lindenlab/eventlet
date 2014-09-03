@@ -257,7 +257,7 @@ def setup():
         _setup_already = True
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.bind(('', 0))
+    sock.bind(('localhost', 0))
     sock.listen(1)
     csock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     csock.connect(sock.getsockname())
