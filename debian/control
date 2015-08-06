@@ -1,0 +1,21 @@
+Source: python-eventlet
+Priority: optional
+Maintainer: Nat Goodspeed <nat@lindenlab.com>
+Build-Depends: debhelper (>= 5.0.38), python-all-dev
+Build-Depends-Indep: python-central (>= 0.5.6), python-setuptools (>= 0.6)
+Standards-Version: 3.9.1
+Section: python
+XS-Python-Version: >=2.6
+Homepage: http://eventlet.net/
+
+Package: python-eventlet
+Section: python
+Architecture: all
+Depends: ${python:Depends}, python-codespeak-lib
+Recommends: python-openssl
+Description: Networking library that makes use of coroutines.
+ Eventlet is a networking library written in Python. It achieves high
+ scalability by using non-blocking io while at the same time retaining high
+ programmer usability by using coroutines to make the non-blocking io
+ operations appear blocking at the source code level.
+

@@ -1,0 +1,11 @@
+python-eventlet (0.17.4-1) stable; urgency=low
+
+  * eventlet 0.17.4 from github + debian packaging.
+
+ -- Nat Goodspeed <nat@lindenlab.com>  Thu, 06 Aug 2015 15:18:00 -0004
+
+python-eventlet (0.8.16-1) stable; urgency=low
+
+  * Internal version of 0.8.16 eventlet python library.
+
+ -- Don Kjer <don@lindenlab.com>  Mon, 26 Mar 2012 19:47:47 +0000
