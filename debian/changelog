@@ -1,3 +1,9 @@
+python-eventlet (0.17.4-2) stable; urgency=low
+
+  * eventlet 0.17.4 requires Python 2.6+.
+
+ -- Nat Goodspeed <nat@lindenlab.com>  Thu, 06 Aug 2015 17:58:00 -0004
+
 python-eventlet (0.17.4-1) stable; urgency=low
 
   * eventlet 0.17.4 from github + debian packaging.
